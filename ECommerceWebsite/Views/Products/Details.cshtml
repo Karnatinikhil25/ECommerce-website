@@ -1,0 +1,9 @@
+@page
+@model ECommerceWebsite.Models.Product
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>@Model.Name</h1>
+<p>@Model.Description</p>
+<p>Price: @Model.Price.ToString("C")</p>
